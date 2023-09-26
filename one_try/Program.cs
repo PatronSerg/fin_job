@@ -34,3 +34,9 @@ static string[] FilterArray(string[] array)
 
     return result;
 }
+
+
+static bool ElementValid(string element)
+{
+    return element.Length <= 3;
+}
