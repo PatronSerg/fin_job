@@ -1,4 +1,7 @@
-﻿
-        Console.Write("Введите элементы массива через пробел: ");
-        string[] input = Console.ReadLine().Split(' ');
-
+﻿static void PrintArray(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.WriteLine(array[i]);
+    }
+}
