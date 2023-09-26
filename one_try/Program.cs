@@ -1,13 +1,3 @@
-
-Console.Write("Введите элементы массива через пробел: ");
-string input = Console.ReadLine();
-string[] array = input.Split(' ');
-string[] result = FilterArray(array);
-
-Console.WriteLine("Новый массив:");
-PrintArray(result);
-
-
 static string[] FilterArray(string[] array)
 {
     int count = 0;
@@ -47,3 +37,13 @@ static void PrintArray(string[] array)
         Console.WriteLine(array[i]);
     }
 }
+
+
+Console.Write("Введите элементы массива через пробел: ");
+string input = Console.ReadLine();
+string[] array = input.Split(' ');
+string[] result = FilterArray(array);
+
+Console.WriteLine("Новый массив:");
+PrintArray(result);
+
