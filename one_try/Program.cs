@@ -1,4 +1,4 @@
-﻿
-        Console.Write("Введите элементы массива через пробел: ");
-        string[] input = Console.ReadLine().Split(' ');
-
+﻿static bool ElementValid(string element)
+{
+    return element.Length <= 3;
+}
